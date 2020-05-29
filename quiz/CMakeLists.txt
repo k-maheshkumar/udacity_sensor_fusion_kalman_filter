@@ -17,3 +17,8 @@ add_executable (calc_rmse
     src/kalman_2d/calc_rmse.cpp
 )
 target_link_libraries (calc_rmse Eigen3::Eigen)
+
+add_executable (calc_jacobian 
+    src/kalman_2d/calc_jacobian.cpp
+)
+target_link_libraries (calc_jacobian Eigen3::Eigen)
