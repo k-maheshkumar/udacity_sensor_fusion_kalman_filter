@@ -13,3 +13,7 @@ add_executable (kalman_2d
 )
 target_link_libraries (kalman_2d Eigen3::Eigen)
 
+add_executable (calc_rmse 
+    src/kalman_2d/calc_rmse.cpp
+)
+target_link_libraries (calc_rmse Eigen3::Eigen)
